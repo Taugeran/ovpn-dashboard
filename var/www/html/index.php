@@ -12,7 +12,7 @@
 <div class="container">
 	<div class="jumbotron col-md-12"">
 		<br>
-		<h3 style="text-align: center;"><img src="/ovpnlogo.png" width="40px" heigth="40px" style="padding-right:10px; padding-bottom: 5px;"></img><?=$pageTitle;?></h3>
+		<h3 style="text-align: center;"><img src="/img/ovpnlogo.png" width="40px" heigth="40px" style="padding-right:10px; padding-bottom: 5px;"></img><?=$pageTitle;?></h3>
 		<br>
 		<div class="panel panel-default col-md-offset-2 col-md-8">
 		  <div class="panel-body" >

@@ -1,7 +1,7 @@
 
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
-	<a  href="/admin" class="navbar-brand"><img src="/admin/ovpnlogo.png" width="22px" heigth="22px" alt="DSC ovpn GUI"></a>
+	<a  href="/admin" class="navbar-brand"><img src="/img/ovpnlogo.png" width="22px" heigth="22px" alt="DSC ovpn GUI"></a>
 	<ul class="nav navbar-nav">
 
 		<li><a href="/admin/">Dashboard</a></li>
