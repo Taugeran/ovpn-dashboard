@@ -9,6 +9,6 @@ Setup howto: https://github.com/DennisSc/ovpn-dashboard/wiki
 
 ## Screenshots:
 
-![Start screen](https://raw.githubusercontent.com/DennisSc/ovpn-dashboard/master/img/startscreen.PNG "Start screen")
-![Dashboard](https://raw.githubusercontent.com/DennisSc/ovpn-dashboard/master/img/dashboard.PNG "Dashboard")
-![edit configuration](https://raw.githubusercontent.com/DennisSc/ovpn-dashboard/master/img/editconf.png "edit configuration")
+![Start screen](https://raw.githubusercontent.com/Taugeran/ovpn-dashboard/master/img/startscreen.PNG "Start screen")
+![Dashboard](https://raw.githubusercontent.com/Taugeran/ovpn-dashboard/master/img/dashboard.PNG "Dashboard")
+![edit configuration](https://raw.githubusercontent.com/Taugeran/ovpn-dashboard/master/img/editconf.png "edit configuration")
