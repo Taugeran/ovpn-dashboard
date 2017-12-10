@@ -43,13 +43,13 @@
 		<li class="dropdown">
 				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" type="button" aria-haspopup="true" aria-expanded="false" id="SysInfo">System <span class="caret"></span></a>
 				  <ul class="dropdown-menu" aria-labelledby="SysInfo">
-				    <li><a href="/admin/sysinfo/lanifinfo">eth0 statistics</a></li>
+				    <li><a href="/admin/sysinfo/lanifinfo">Interface Stats</a></li>
 				    <li><a href="/admin/sysinfo/meminfo">Memory usage</a></li>
 					<li><a href="/admin/sysinfo/diskinfo">Disk usage</a></li>
-					<li><a href="/admin/sysinfo/cpuinfo">CPU information</a></li>
+					<li><a href="/admin/sysinfo/cpuinfo">CPU info</a></li>
 					<li><a href="/admin/sysinfo/procinfo">Process info</a></li>
 					
-					<li><a href="/admin//phpinfo">Show PHPinfo</a></li>
+					<li><a href="/admin/phpinfo">Show PHPinfo</a></li>
 
 				    <li role="separator" class="divider"></li>
 				    <li><a href="/admin/">Dashboard</a></li>
