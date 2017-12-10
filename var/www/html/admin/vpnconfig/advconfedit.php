@@ -31,7 +31,13 @@ $text = file_get_contents($file);
 	}
 </style>
 <form action="/admin/vpnconfig/advconfedit" method="post">
-<textarea id="text" name="text"><?php echo htmlspecialchars($text) ?></textarea>
-<input type="submit" />
-<input type="reset" />
+	<textarea id="text" name="text"><?php echo htmlspecialchars($text) ?></textarea>
+	<div class="row">
+		<div class="col-lg-4"></div>
+		<div class="col-lg-3">
+			<input type="submit" class="btn btn-default pull-left">
+			<input type="reset" class="btn btn-default pull-right">
+		</div>
+		<div class="col-lg-5"></div>
+	</div>
 </form>
