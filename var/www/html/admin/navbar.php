@@ -6,7 +6,7 @@
 
 		<li><a href="/admin/">Dashboard</a></li>
 		<li class="dropdown">
-			<a href="#" class="dropdown-toggle" data-toggle="dropdown" type="button" aria-haspopup="true" aria-expanded="false" id="vpnStats">vpnStatus <span class="caret"></span></a>
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown" type="button" aria-haspopup="true" aria-expanded="false" id="vpnStats">Status <span class="caret"></span></a>
 				  <ul class="dropdown-menu" aria-labelledby="vpnStats">
 					<li><a href="/admin/sysinfo/tunifinfo">tun0 statistics</a></li>
 					<li><a href="/admin/vpninfo/vpninfo">Connection statistics</a></li>
@@ -17,7 +17,7 @@
 				  </ul>
 		</li>
 		<li class="dropdown">
-			<a href="#" class="dropdown-toggle" data-toggle="dropdown" type="button" aria-haspopup="true" aria-expanded="false" id="vpnConfig">vpnConfig <span class="caret"></span></a>
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown" type="button" aria-haspopup="true" aria-expanded="false" id="vpnConfig">Config <span class="caret"></span></a>
 				  <ul class="dropdown-menu" aria-labelledby="vpnConfig">
 					<li><a href="/admin/vpnconfig/editconf">Edit live configuration</a></li>
 					<li><a href="/admin/vpnconfig/servicerestartselect">Restart services</a></li>
@@ -29,7 +29,7 @@
 		</li>
 
 		<li class="dropdown">
-			<a href="#" class="dropdown-toggle" data-toggle="dropdown" type="button" aria-haspopup="true" aria-expanded="false" id="vpnUsers">vpnPeers <span class="caret"></span></a>
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown" type="button" aria-haspopup="true" aria-expanded="false" id="vpnUsers">Peers <span class="caret"></span></a>
 				  <ul class="dropdown-menu" aria-labelledby="vpnUsers">
 					<li><a href="/admin/vpnusers/showusers">Peer overview</a></li>
 					<li><a href="/admin/vpnusers/adduser">Add new peer</a></li>
@@ -41,7 +41,7 @@
 		<li><a href="/download/">Downloads</a></li>
 
 		<li class="dropdown">
-				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" type="button" aria-haspopup="true" aria-expanded="false" id="SysInfo">SysInfo <span class="caret"></span></a>
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" type="button" aria-haspopup="true" aria-expanded="false" id="SysInfo">System <span class="caret"></span></a>
 				  <ul class="dropdown-menu" aria-labelledby="SysInfo">
 				    <li><a href="/admin/sysinfo/lanifinfo">eth0 statistics</a></li>
 				    <li><a href="/admin/sysinfo/meminfo">Memory usage</a></li>
