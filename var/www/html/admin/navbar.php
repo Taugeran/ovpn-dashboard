@@ -12,8 +12,7 @@
 					<li><a href="/admin/vpninfo/vpninfo">Connection statistics</a></li>
 					<li><a href="/admin/vpninfo/vpnlog">View openVPN logfile</a></li>
 					<li><a href="/admin/vpninfo/vpnconf">View server config</a></li>
-					
-					
+
 				  </ul>
 		</li>
 		<li class="dropdown">
@@ -22,6 +21,7 @@
 					<li><a href="/admin/vpnconfig/editconf">Edit live configuration</a></li>
 					<li><a href="/admin/vpnconfig/servicerestartselect">Restart services</a></li>
 					<li><a href="#">Shutdown & reboot</a></li>
+					<li role="separator" class="divider"></li>
 					<li><a href="/admin/vpnconfig/backupconf">Backup config file</a></li>
 					<li><a href="/admin/vpnconfig/restoreconf">Restore config backup</a></li>
 					
