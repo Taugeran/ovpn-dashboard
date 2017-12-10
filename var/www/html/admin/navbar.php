@@ -8,7 +8,7 @@
 		<li class="dropdown">
 			<a href="#" class="dropdown-toggle" data-toggle="dropdown" type="button" aria-haspopup="true" aria-expanded="false" id="vpnStats">Status <span class="caret"></span></a>
 				  <ul class="dropdown-menu" aria-labelledby="vpnStats">
-					<li><a href="/admin/sysinfo/tunifinfo">tun0 statistics</a></li>
+				<!--	<li><a href="/admin/sysinfo/tunifinfo">tun0 statistics</a></li> -->
 					<li><a href="/admin/vpninfo/vpninfo">Connection statistics</a></li>
 					<li><a href="/admin/vpninfo/vpnlog">View openVPN logfile</a></li>
 					<li><a href="/admin/vpninfo/vpnconf">View server config</a></li>
@@ -19,6 +19,7 @@
 			<a href="#" class="dropdown-toggle" data-toggle="dropdown" type="button" aria-haspopup="true" aria-expanded="false" id="vpnConfig">Config <span class="caret"></span></a>
 				  <ul class="dropdown-menu" aria-labelledby="vpnConfig">
 					<li><a href="/admin/vpnconfig/editconf">Edit live configuration</a></li>
+					<li><a href="/admin/vpninfo/vpnconf">View server config</a></li>
 					<li><a href="/admin/vpnconfig/servicerestartselect">Restart services</a></li>
 					<li><a href="#">Shutdown & reboot</a></li>
 					<li role="separator" class="divider"></li>

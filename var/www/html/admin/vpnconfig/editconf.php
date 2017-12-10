@@ -176,7 +176,9 @@ $compression="enabled";
 
 			</form>
 
-
+		<div class='well'>
+			<?php include 'advconfedit.php'; ?>
+		</div>
 
 
 <div class="modal fade" id="confirm-submit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
