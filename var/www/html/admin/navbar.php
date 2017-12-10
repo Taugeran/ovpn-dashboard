@@ -11,7 +11,7 @@
 				<!--	<li><a href="/admin/sysinfo/tunifinfo">tun0 statistics</a></li> -->
 					<li><a href="/admin/vpninfo/vpninfo">Connection statistics</a></li>
 					<li><a href="/admin/vpninfo/vpnlog">View openVPN logfile</a></li>
-					<li><a href="/admin/vpninfo/vpnconf">View server config</a></li>
+				<!--	<li><a href="/admin/vpninfo/vpnconf">View server config</a></li> -->
 
 				  </ul>
 		</li>
