@@ -176,13 +176,11 @@ $compression="enabled";
 
 			</form>
 
-		<div class='well'>
-			<?php include 'advconfedit.php'; ?>
-		</div>
 
 
-<div class="modal fade" id="confirm-submit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+
+				<div class="modal fade" id="confirm-submit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    	<div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
                 Confirm Submit
@@ -225,13 +223,13 @@ $compression="enabled";
 
             </div>
 
-  <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-            <a href="#" id="submit" class="btn btn-success success">Submit</a>
-        </div>
-    </div>
-</div>
-</div>
+					  <div class="modal-footer">
+					            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+					            <a href="#" id="submit" class="btn btn-success success">Submit</a>
+					        </div>
+					    </div>
+					</div>
+					</div>
 
 			<script>
 			$('#submitBtn').click(function() {
@@ -253,9 +251,13 @@ $compression="enabled";
 
 
 		
-	</div>
+		</div>
+		<div class='well'>
+			<?php include 'advconfedit.php'; ?>
+		</div>
 </div>
-<br></div>
+<br>
+</div>
 </div>
 	</body>
 </html>

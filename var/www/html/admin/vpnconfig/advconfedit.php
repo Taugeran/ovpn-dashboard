@@ -21,8 +21,17 @@ $text = file_get_contents($file);
 
 ?>
 <!-- HTML form -->
+
+<style type="text/css">
+	#text {
+		width: 100%;
+		min-height: 400px;
+		margin: 0 0 10px 0;
+		resize: vertical;
+	}
+</style>
 <form action="/admin/vpnconfig/advconfedit" method="post">
-<textarea name="text"><?php echo htmlspecialchars($text) ?></textarea>
+<textarea id="text" name="text"><?php echo htmlspecialchars($text) ?></textarea>
 <input type="submit" />
 <input type="reset" />
 </form>
