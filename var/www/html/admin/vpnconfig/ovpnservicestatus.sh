@@ -18,7 +18,7 @@ not_root() {
 
 
 
-service openvpn status  2>&1
+service openvpn* status  2>&1
 
 
 exit 0

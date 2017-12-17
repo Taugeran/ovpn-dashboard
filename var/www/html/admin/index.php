@@ -6,7 +6,7 @@ $output3 = shell_exec('uptime');
 $clientcount = shell_exec('sudo /var/www/html/admin/getusercount.sh');
 $load = sys_getloadavg();
 
-$ovpnactive = shell_exec("sudo /var/www/html/admin/vpnconfig/ovpnservicestatus.sh | grep active  | awk '{ print $2 }'");
+$ovpnactive = shell_exec("sudo /var/www/html/admin/vpnconfig/ovpnservicestatus.sh | grep active  | awk '{ print $2 }' | uniq");
 $ovpnactive = str_replace(array("\r", "\n"), '', $ovpnactive);
 
 
